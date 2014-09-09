@@ -1,0 +1,78 @@
+/*******************************************************
+ * GLOBAL STYLES
+ *******************************************************/
+
+body {
+  padding-top: 20px;
+}
+
+.brand-logo {
+  max-width: 300px;
+  padding: 5px;
+}
+
+.nurse-blue-padding {
+  padding: 80px;
+  background-color:#0091C9;
+}
+
+.nurse-white-padding {
+  padding: 80px;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+}
+
+/*******************************************************
+ * BOOTSTRAP OVERRIDES
+ *******************************************************/
+
+.navbar-default .navbar-nav>li>a {
+  color: #0091C9;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #0091C9;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/*******************************************************
+ * MAJOR SECTIONS
+ *******************************************************/
+
+#nurse-features{
+  padding:35px;
+  background-color:#0091C9;
+}
+
+#nurse-main-features{
+  
+}

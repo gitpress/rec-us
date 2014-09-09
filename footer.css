@@ -1,0 +1,57 @@
+/* Sheffield Teaching Hospitals Foundation Trust - Bootstrap 3 Global Footer
+
+All rights reserved Sheffield Teaching Hospitals
+Developed by: Andrew Duckworth 04-08-2014
+
+Built on Bootstrap 3
+*/
+
+/* Footer IDs */
+#global-footer {
+	padding: 15px 0 10px 0;
+	background-color: #0091C9;
+	color: white;
+	border: 0 solid #28B4EB;
+	border-top: 10px solid #28B4EB;
+}
+
+.global-styles a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.global-styles ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.global-logo {
+	padding: 5px;
+	background-color: white;
+	max-width: 100%;
+}
+
+.logo-container {
+	overflow: hidden;
+}
+#policy-footer {
+
+}
+
+/* Typography */
+.no-margin-header {
+	margin-top: 0px;
+}
+
+/* overrides */
+
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #000;
+}
+
+.nav-pills>li>a {
+ border-radius: 0;
+}
+
+/**** *****/
