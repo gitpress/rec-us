@@ -52,10 +52,12 @@ body {
 
 a.btn-nurse {
   color:#B10DC9;
+  background-color: white;
 }
 
 a.btn-nurse:hover {
   color:black;
+  background-color:white;
 }
 
 .btn-link {
@@ -65,6 +67,14 @@ a.btn-nurse:hover {
 .btn-link:hover {
   color:black;
   text-decoration:none;
+}
+
+.head-room{
+  margin-top:15px;
+}
+
+.no-head-room{
+  margin-top:0px;
 }
 /*******************************************************
  * BOOTSTRAP OVERRIDES
@@ -100,8 +110,9 @@ a.btn-nurse:hover {
 
 #nurse-event-feature {
   background-image: url('slide_two_nurses_2.png');
-  min-height: 800px;
+  min-height: 350px; /* may need to be 800px for large monitors */
   margin-top: 30px;
+  /*padding:50px;*/
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -110,6 +121,10 @@ a.btn-nurse:hover {
   margin-top: 500px;
 }
 
+#nurse-footer{
+  padding:30px;
+  background-color:#efefef;
+}
 
 @media (max-width: 1200px) {
   .brand-logo{
