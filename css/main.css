@@ -109,7 +109,7 @@ a.btn-nurse:hover {
 }
 
 #nurse-event-feature {
-  background-image: url('slide_two_nurses_2.png');
+  background-image: url('../img/slide_two_nurses_2.png');
   min-height: 350px; /* may need to be 800px for large monitors */
   margin-top: 30px;
   /*padding:50px;*/

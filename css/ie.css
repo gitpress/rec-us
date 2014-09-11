@@ -1,0 +1,24 @@
+/**************************************
+ * IE SPECIFIC OVERRIDES 
+ * ***********************************/
+
+body{
+  font-family:
+}
+
+.ie-image-feature{
+  max-width:350px;
+}
+
+#nurse-event-feature{
+  background-attachment: fixed;
+    background-position: center;
+}
+
+.ie-remove {
+  display:none;
+}
+
+.ie-7-remove{
+  display:none;
+}
