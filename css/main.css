@@ -20,12 +20,25 @@ body {
 }
 
 .nurse-blue-padding {
-  padding: 80px;
-  background-color:#0091C9;
+  padding: 50px;
+  background-color: #0091C9;
+  border-top: 10px solid #70D4FA;
+  border-bottom: 10px solid #70D4FA;
+}
+
+.jumbotron{
+  border-bottom: 10px solid #70D4FA;
+  background-image: url('../img/three_web.jpg');
+  background-size: cover;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  min-height: 360px;
+  background-position:center;
+  padding-top:200px;
 }
 
 .nurse-white-padding {
-  padding: 80px;
+  padding: 20px;
 }
 
 .navbar-default {
@@ -75,6 +88,15 @@ a.btn-nurse:hover {
 
 .no-head-room{
   margin-top:0px;
+}
+
+.navbar-default .navbar-nav>li>a.focus{
+  color:#B10DC9;
+  font-weight:bold;
+}
+
+a.navbar-brand.visible-xs{
+  font-size:100%;
 }
 /*******************************************************
  * BOOTSTRAP OVERRIDES
@@ -126,35 +148,37 @@ a.btn-nurse:hover {
   background-color:#efefef;
 }
 
+.nurse-image-feature{
+  max-height:420px;
+  max-width:279px;
+  min-height:200px;
+  
+}
+@media (max-width: 640px) {
+  .hidden-small{
+    display:none;
+  }
+}
+
 @media (max-width: 1200px) {
   .brand-logo{
     display:none;
   }
 }
 
-@media (max-width: 1380px) {
-  #nurse-first-section  {
-    margin-top: 400px;
+@media (max-width: 395px) {
+  .jumbotron h2{
+    font-size:180%;
   }
 }
 
-@media (max-width: 1183px) {
-  #nurse-first-section  {
-    margin-top: 300px;
+@media (min-width: 1220px) {
+  .jumbotron{
+    padding-top:300px;
   }
 }
 
-@media (max-width: 963px) {
-  #nurse-first-section  {
-    margin-top: 400px;
-  }
-}
 
-@media (max-width: 640px) {
-  #nurse-first-section  {
-    margin-top: 170px;
-  }
-}
 
 
 
