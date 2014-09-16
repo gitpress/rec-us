@@ -9,7 +9,7 @@ html{
 }
 
 
-body {
+body{
   padding-top: 20px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -28,7 +28,7 @@ body {
 
 .jumbotron{
   border-bottom: 10px solid #70D4FA;
-  background-image: url('../img/three_web.jpg');
+  background-image: url('../img/header_images_nurses.jpg');
   background-size: cover;
   padding-bottom: 30px;
   background-repeat: no-repeat;
@@ -51,6 +51,11 @@ body {
 
 .blue-text-padding{
   background-color:#0091C9;
+  padding:5px;
+}
+
+.jumbotron-heading{
+  background-color:rgba(0, 145, 201, 0.82);
   padding:5px;
 }
 
@@ -95,8 +100,22 @@ a.btn-nurse:hover {
   font-weight:bold;
 }
 
+.navbar-default .navbar-nav>li>a.focus:hover{
+  color:#B10DC9;
+  font-weight:bold;
+  text-decoration:underline;
+}
+
 a.navbar-brand.visible-xs{
   font-size:100%;
+}
+
+.img-feature{
+  max-width:300px;
+}
+
+#event-focus:{
+  color:red;
 }
 /*******************************************************
  * BOOTSTRAP OVERRIDES
@@ -114,6 +133,25 @@ a.navbar-brand.visible-xs{
 
 .navbar-nav {
   margin: 5px;
+}
+
+.navbar-default .navbar-brand {
+  color: #0091C9;
+  background-color:#fff;
+}
+
+.form-control {
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 0px solid #FFF;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  border-bottom: 1px solid blueviolet;
 }
 
 
@@ -152,8 +190,38 @@ a.navbar-brand.visible-xs{
   max-height:420px;
   max-width:279px;
   min-height:200px;
-  
 }
+
+#nurse-event{
+  padding:50px;
+  padding-top:60px;
+}
+
+#event-map h2{
+  background-color:#0091C9;
+  color:#fff;
+  padding: 10px 5px;
+}
+
+/*******************************************************
+ * MAILCHIMP
+ *******************************************************/
+
+input#mc-embedded-subscribe {
+  background-color: white;
+  color: #B10DC9;
+}
+
+div#mc_embed_signup h2{
+  background-color:#B10DC9;
+  color:#fff;
+  padding: 10px 5px;
+}
+
+/*******************************************************
+ * RWD Section
+ *******************************************************/
+
 @media (max-width: 640px) {
   .hidden-small{
     display:none;
@@ -178,7 +246,11 @@ a.navbar-brand.visible-xs{
   }
 }
 
-
+@media (max-width: 500px) {
+  .jumbotron{
+    padding-top:20px;
+  }
+}
 
 
 
