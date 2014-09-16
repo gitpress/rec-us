@@ -1,0 +1,11 @@
+.jumbotron-heading{
+  background-color:#0091C9;
+}
+
+.jumbotron{
+  background-image: url('../img/header_images_nurses.jpg');
+  background-size: contain;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='../img/header_images_nurses.jpg',
+  sizingMethod='scale');
+}
