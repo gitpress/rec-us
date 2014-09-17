@@ -9,3 +9,7 @@
   src='../img/header_images_nurses.jpg',
   sizingMethod='scale');
 }
+
+.ie-kill{
+  display:none;
+}

@@ -117,6 +117,7 @@ a.navbar-brand.visible-xs{
 #event-focus:{
   color:red;
 }
+
 /*******************************************************
  * BOOTSTRAP OVERRIDES
  *******************************************************/
@@ -201,6 +202,35 @@ a.navbar-brand.visible-xs{
   background-color:#0091C9;
   color:#fff;
   padding: 10px 5px;
+}
+
+#main-benefits{
+  padding:15px;
+  background-color:#0091C9;
+  color:#fff;
+  margin-bottom:45px;
+}
+
+#sth-return {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  padding: 5px;
+  background-color:#B10DC9;
+  -webkit-border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#sth-return a{
+  color:white;
+}
+
+.no-margin{
+  margin:0px;
 }
 
 /*******************************************************
