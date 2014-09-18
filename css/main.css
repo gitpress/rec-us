@@ -13,50 +13,42 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.brand-logo {
-  max-width: 300px;
-  padding: 5px;
+/*******************************************************
+ * UTILITY STYLES
+ *******************************************************/
+
+.no-margin {
+  margin: 0px;
 }
 
-.nurse-blue-padding {
-  padding: 50px;
-  background-color: #0091C9;
-  border-top: 10px solid #70D4FA;
-  border-bottom: 10px solid #70D4FA;
+.head-room {
+  margin-top: 15px;
 }
 
-.jumbotron {
-  border-bottom: 10px solid #70D4FA;
-  background-image: url('../img/header_images_nurses.jpg');
-  background-size: cover;
-  padding-bottom: 30px;
-  background-repeat: no-repeat;
-  min-height: 360px;
-  background-position: center;
-  padding-top: 200px;
-}
-
-.nurse-white-padding {
-  padding: 20px;
-}
-
-.navbar-default {
-  background-color: #FFFFFF;
+.no-head-room {
+  margin-top: 0px;
 }
 
 .light-text {
   color: white;
 }
 
-.blue-text-padding {
-  background-color: #0091C9;
+/*******************************************************
+ * IMAGES STYLES
+ *******************************************************/
+
+.brand-logo {
+  max-width: 300px;
   padding: 5px;
 }
 
-.jumbotron-heading {
-  background-color: rgba(0, 145, 201, 0.82);
-  padding: 5px;
+.img-feature {
+  max-width: 250px;
 }
+
+/*******************************************************
+ * BUTTON STYLES
+ *******************************************************/
 
 .btn-nurse {
   border: 3px solid #B10DC9;
@@ -77,6 +69,16 @@ a.btn-nurse:hover {
   background-color: white;
 }
 
+a.btn-event{
+  color:#fff;
+  background-color:#B10DC9;
+}
+
+a.btn-event:hover{
+  color:#B10DC9;
+  background-color:#fff;
+}
+
 .btn-link {
   color: #B10DC9;
 }
@@ -86,12 +88,18 @@ a.btn-nurse:hover {
   text-decoration: none;
 }
 
-.head-room {
-  margin-top: 15px;
+
+/*******************************************************
+ * BOOTSTRAP OVERRIDES
+ *******************************************************/
+
+.jumbotron-heading {
+  background-color: rgba(0, 145, 201, 0.82);
+  padding: 5px;
 }
 
-.no-head-room {
-  margin-top: 0px;
+.navbar-default {
+  background-color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav>li>a.focus {
@@ -109,17 +117,16 @@ a.navbar-brand.visible-xs {
   font-size: 100%;
 }
 
-.img-feature {
-  max-width: 250px;
+.jumbotron {
+  border-bottom: 10px solid #70D4FA;
+  background-image: url('../img/header_images_nurses.jpg');
+  background-size: cover;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  min-height: 360px;
+  background-position: center;
+  padding-top: 200px;
 }
-
-#event-focus: {
-  color: red;
-}
-
-/*******************************************************
- * BOOTSTRAP OVERRIDES
- *******************************************************/
 
 .navbar-default .navbar-nav>li>a {
   color: #0091C9;
@@ -158,12 +165,18 @@ a.navbar-brand.visible-xs {
  * MAJOR SECTIONS
  *******************************************************/
 
+.blue-text-padding {
+  background-color: #0091C9;
+  padding: 5px;
+}
+
+.nurse-white-padding {
+  padding: 20px;
+}
+
 #nurse-features {
   padding: 35px;
   background-color: #0091C9;
-}
-
-#nurse-main-features {
 }
 
 #nurse-event-feature {
@@ -183,6 +196,7 @@ a.navbar-brand.visible-xs {
 #nurse-footer {
   padding: 30px;
   background-color: #efefef;
+  border-top:10px solid #CACACA;
 }
 
 .nurse-image-feature {
@@ -227,8 +241,15 @@ a.navbar-brand.visible-xs {
   color: white;
 }
 
-.no-margin {
-  margin: 0px;
+#event-focus: {
+  color: red;
+}
+
+.nurse-blue-padding {
+  padding: 50px;
+  background-color: #0091C9;
+  border-top: 10px solid #70D4FA;
+  border-bottom: 10px solid #70D4FA;
 }
 
 /*******************************************************
@@ -296,4 +317,10 @@ div#mc_embed_signup h2 {
   }
 }
 
-
+@media (max-width: 370px) {
+  .nurse-image-feature {
+    max-height: auto;
+    max-width: 100%;
+    min-height: 200px;
+  }
+}
