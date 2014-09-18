@@ -13,3 +13,7 @@
 .ie-kill{
   display:none;
 }
+
+.ie-feature-image{
+  width:250px;
+}

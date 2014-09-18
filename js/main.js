@@ -7,7 +7,7 @@ $(document).ready(function() {
     $(".responsive-media").removeClass("pull-left");
   }
 
-  //simple function to check if the screensize changes and to add or remove a class. IE safe
+  //simple function to check if the screensize changes and to add or remove a class
 
   $(window).resize(function() {
     if ($(window).width() > 700) {
