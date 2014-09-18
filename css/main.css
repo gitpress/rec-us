@@ -46,6 +46,10 @@ body {
   max-width: 250px;
 }
 
+.nurse-support-img{
+  padding: 5px;
+}
+
 /*******************************************************
  * BUTTON STYLES
  *******************************************************/
@@ -206,8 +210,7 @@ a.navbar-brand.visible-xs {
 }
 
 #nurse-event {
-  padding: 50px;
-  padding-top: 60px;
+  padding: 70px 50px 20px 50px;
 }
 
 #event-map h2 {
