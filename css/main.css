@@ -4,12 +4,11 @@
  * GLOBAL STYLES
  *******************************************************/
 
-html{
+html {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-body{
+body {
   padding-top: 20px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -26,15 +25,15 @@ body{
   border-bottom: 10px solid #70D4FA;
 }
 
-.jumbotron{
+.jumbotron {
   border-bottom: 10px solid #70D4FA;
   background-image: url('../img/header_images_nurses.jpg');
   background-size: cover;
   padding-bottom: 30px;
   background-repeat: no-repeat;
   min-height: 360px;
-  background-position:center;
-  padding-top:200px;
+  background-position: center;
+  padding-top: 200px;
 }
 
 .nurse-white-padding {
@@ -45,77 +44,77 @@ body{
   background-color: #FFFFFF;
 }
 
-.light-text{
-  color:white;
+.light-text {
+  color: white;
 }
 
-.blue-text-padding{
-  background-color:#0091C9;
-  padding:5px;
+.blue-text-padding {
+  background-color: #0091C9;
+  padding: 5px;
 }
 
-.jumbotron-heading{
-  background-color:rgba(0, 145, 201, 0.82);
-  padding:5px;
+.jumbotron-heading {
+  background-color: rgba(0, 145, 201, 0.82);
+  padding: 5px;
 }
 
 .btn-nurse {
-	border: 3px solid #B10DC9;
+  border: 3px solid #B10DC9;
 }
 
 .btn-nurse:hover {
-	margin-top: 0;
-	border: 3px solid black;
+  margin-top: 0;
+  border: 3px solid black;
 }
 
 a.btn-nurse {
-  color:#B10DC9;
+  color: #B10DC9;
   background-color: white;
 }
 
 a.btn-nurse:hover {
-  color:black;
-  background-color:white;
+  color: black;
+  background-color: white;
 }
 
 .btn-link {
-  color:#B10DC9;
+  color: #B10DC9;
 }
 
 .btn-link:hover {
-  color:black;
-  text-decoration:none;
+  color: black;
+  text-decoration: none;
 }
 
-.head-room{
-  margin-top:15px;
+.head-room {
+  margin-top: 15px;
 }
 
-.no-head-room{
-  margin-top:0px;
+.no-head-room {
+  margin-top: 0px;
 }
 
-.navbar-default .navbar-nav>li>a.focus{
-  color:#B10DC9;
-  font-weight:bold;
+.navbar-default .navbar-nav>li>a.focus {
+  color: #B10DC9;
+  font-weight: bold;
 }
 
-.navbar-default .navbar-nav>li>a.focus:hover{
-  color:#B10DC9;
-  font-weight:bold;
-  text-decoration:underline;
+.navbar-default .navbar-nav>li>a.focus:hover {
+  color: #B10DC9;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-a.navbar-brand.visible-xs{
-  font-size:100%;
+a.navbar-brand.visible-xs {
+  font-size: 100%;
 }
 
-.img-feature{
-  max-width:250px;
+.img-feature {
+  max-width: 250px;
 }
 
-#event-focus:{
-  color:red;
+#event-focus: {
+  color: red;
 }
 
 /*******************************************************
@@ -131,14 +130,13 @@ a.navbar-brand.visible-xs{
   background-color: #0091C9;
 }
 
-
 .navbar-nav {
   margin: 5px;
 }
 
 .navbar-default .navbar-brand {
   color: #0091C9;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .form-control {
@@ -160,18 +158,18 @@ a.navbar-brand.visible-xs{
  * MAJOR SECTIONS
  *******************************************************/
 
-#nurse-features{
-  padding:35px;
-  background-color:#0091C9;
+#nurse-features {
+  padding: 35px;
+  background-color: #0091C9;
 }
 
-#nurse-main-features{
-  
+#nurse-main-features {
 }
 
 #nurse-event-feature {
   background-image: url('../img/slide_two_nurses_2.png');
-  min-height: 350px; /* may need to be 800px for large monitors */
+  min-height: 350px;
+ /* may need to be 800px for large monitors */
   margin-top: 30px;
   /*padding:50px;*/
   background-size: 100%;
@@ -182,33 +180,33 @@ a.navbar-brand.visible-xs{
   margin-top: 500px;
 }
 
-#nurse-footer{
-  padding:30px;
-  background-color:#efefef;
+#nurse-footer {
+  padding: 30px;
+  background-color: #efefef;
 }
 
-.nurse-image-feature{
-  max-height:420px;
-  max-width:279px;
-  min-height:200px;
+.nurse-image-feature {
+  max-height: 420px;
+  max-width: 279px;
+  min-height: 200px;
 }
 
-#nurse-event{
-  padding:50px;
-  padding-top:60px;
+#nurse-event {
+  padding: 50px;
+  padding-top: 60px;
 }
 
-#event-map h2{
-  background-color:#0091C9;
-  color:#fff;
+#event-map h2 {
+  background-color: #0091C9;
+  color: #fff;
   padding: 10px 5px;
 }
 
-#main-benefits{
-  padding:15px;
-  background-color:#0091C9;
-  color:#fff;
-  margin-bottom:45px;
+#main-benefits {
+  padding: 15px;
+  background-color: #0091C9;
+  color: #fff;
+  margin-bottom: 45px;
 }
 
 #sth-return {
@@ -216,7 +214,7 @@ a.navbar-brand.visible-xs{
   bottom: 0px;
   right: 20px;
   padding: 5px;
-  background-color:#B10DC9;
+  background-color: #B10DC9;
   -webkit-border-top-left-radius: 6px;
   -webkit-border-top-right-radius: 6px;
   -moz-border-radius-topleft: 6px;
@@ -225,12 +223,12 @@ a.navbar-brand.visible-xs{
   border-top-right-radius: 6px;
 }
 
-#sth-return a{
-  color:white;
+#sth-return a {
+  color: white;
 }
 
-.no-margin{
-  margin:0px;
+.no-margin {
+  margin: 0px;
 }
 
 /*******************************************************
@@ -242,14 +240,14 @@ input#mc-embedded-subscribe {
   color: #B10DC9;
 }
 
-div#mc_embed_signup h2{
-  background-color:#B10DC9;
-  color:#fff;
+div#mc_embed_signup h2 {
+  background-color: #B10DC9;
+  color: #fff;
   padding: 10px 5px;
 }
 
-.indicates-required{
-  color:red;
+.indicates-required {
+  color: red;
 }
 
 /*******************************************************
@@ -257,34 +255,45 @@ div#mc_embed_signup h2{
  *******************************************************/
 
 @media (max-width: 640px) {
-  .hidden-small{
-    display:none;
+  .hidden-small {
+    display: none;
   }
 }
 
 @media (max-width: 1200px) {
-  .brand-logo{
-    display:none;
+  .brand-logo {
+    display: none;
   }
 }
 
 @media (max-width: 395px) {
-  .jumbotron h2{
-    font-size:180%;
+  .jumbotron h2 {
+    font-size: 180%;
   }
 }
 
 @media (min-width: 1220px) {
-  .jumbotron{
-    padding-top:300px;
+  .jumbotron {
+    padding-top: 300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .jumbotron {
+    padding-top: 450px;
+  }
+}
+
+@media (min-width: 1650px) {
+  .jumbotron {
+    padding-top: 550px;
   }
 }
 
 @media (max-width: 500px) {
-  .jumbotron{
-    padding-top:20px;
+  .jumbotron {
+    padding-top: 20px;
   }
 }
-
 
 
