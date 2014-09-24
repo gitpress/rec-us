@@ -8,6 +8,7 @@ $(document).ready(function() {
   }
 
   //simple function to check if the screensize changes and to add or remove a class
+  //Second selector is the context so jQuery looks there first
 
   $(window).resize(function() {
     if ($(window).width() > 700) {
