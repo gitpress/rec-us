@@ -9,6 +9,7 @@ Developed by: Andrew Duckworth 04-08-2014
  * jQuery for Recruitment Site
  * ******************************************** */
 $(document).ready(function() {
+  "use strict";
 
   if ($(window).width() < 700) {
     $(".responsive-media",$("#nurse-why-sth")).removeClass("pull-left");
