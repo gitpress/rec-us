@@ -10,11 +10,12 @@ Developed by: Andrew Duckworth 04-08-2014
 }
 
 .jumbotron{
-  background-image: url('../img/header_images_nurses.jpg');
+  background-image: url('../img/three_web.jpg');
   background-size: contain;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-  src='../img/header_images_nurses.jpg',
-  sizingMethod='scale');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/three_web.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/three_web.jpg', sizingMethod='scale')";
+  background-position: center;
+  margin-top: 40px;
 }
 
 .ie-kill{
