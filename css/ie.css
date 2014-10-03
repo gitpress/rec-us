@@ -12,9 +12,9 @@ Developed by: Andrew Duckworth 04-08-2014
 .jumbotron{
   background-image: url('../img/three_web.jpg');
   background-size: contain;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/three_web.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/three_web.jpg', sizingMethod='scale')";
-  background-position: center;
+  /* filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/three_web.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/three_web.jpg', sizingMethod='scale')"; */
+  background-position: 55% 30%;
   margin-top: 40px;
 }
 
@@ -32,4 +32,10 @@ Developed by: Andrew Duckworth 04-08-2014
 
 .ie-brand{
   float:right;
+}
+
+@media (max-width: 1024px) {
+  .jumbotron {
+    padding-top: 500px !important;
+  }
 }
